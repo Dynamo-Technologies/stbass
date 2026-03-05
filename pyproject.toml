@@ -6,14 +6,34 @@ build-backend = "hatchling.build"
 name = "stbass"
 version = "0.1.0"
 description = "Formal concurrency primitives for the agentic era. Too many bass players? Now they're in tune."
-authors = [{ name = "Beautiful Majestic Dolphin LLC" }]
+authors = [{ name = "Beautiful Majestic Dolphin LLC", email = "hello@beautifulmajesticdolphin.com" }]
 license = "MIT"
 readme = "README.md"
 requires-python = ">=3.11"
+keywords = ["concurrency", "csp", "async", "agents", "orchestration", "parallel", "channels", "process-algebra"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: System :: Distributed Computing",
+    "Typing :: Typed",
+    "Framework :: AsyncIO",
+]
 dependencies = [
     "pydantic>=2.0",
     "httpx>=0.27",
 ]
+
+[project.urls]
+Homepage = "https://github.com/Dynamo-Technologies/stbass"
+Repository = "https://github.com/Dynamo-Technologies/stbass"
+Documentation = "https://github.com/Dynamo-Technologies/stbass/blob/main/docs/STBASS_REFERENCE.md"
+Issues = "https://github.com/Dynamo-Technologies/stbass/issues"
 
 [project.optional-dependencies]
 dev = [
