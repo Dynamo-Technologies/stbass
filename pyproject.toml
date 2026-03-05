@@ -4,9 +4,13 @@ build-backend = "hatchling.build"
 
 [project]
 name = "stbass"
-version = "0.1.0"
+version = "0.1.1"
 description = "Formal concurrency primitives for the agentic era. Too many bass players? Now they're in tune."
-authors = [{ name = "Beautiful Majestic Dolphin LLC", email = "hello@beautifulmajesticdolphin.com" }]
+authors = [{ name = "Shane Morris", email = "shane.morris@dynamo.works" }]
+maintainers = [
+    { name = "Devin Hill", email = "devin.hill@dynamo.works" },
+    { name = "Alex Curnow", email = "alex.curnow@dynamo.works" },
+]
 license = "MIT"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -30,7 +34,7 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/Dynamo-Technologies/stbass"
+Homepage = "https://stbass.com"
 Repository = "https://github.com/Dynamo-Technologies/stbass"
 Documentation = "https://github.com/Dynamo-Technologies/stbass/blob/main/docs/STBASS_REFERENCE.md"
 Issues = "https://github.com/Dynamo-Technologies/stbass/issues"
